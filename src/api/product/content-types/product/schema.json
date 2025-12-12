@@ -35,6 +35,12 @@
     },
     "description": {
       "type": "string"
+    },
+    "usage": {
+      "type": "string"
+    },
+    "useful": {
+      "type": "string"
     }
   }
 }

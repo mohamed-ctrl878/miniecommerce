@@ -552,6 +552,8 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    usage: Schema.Attribute.String;
+    useful: Schema.Attribute.String;
   };
 }
 
